@@ -1,0 +1,26 @@
+test_set_file_loc	location of the testing data file
+train_set_file_loc	location of the training data file
+subject_test_loc	location of the test subject info file
+subject_train_loc   location of the train subject info file 
+feature_file_loc    location of the features data file
+test_labels_loc     location of the test label file
+train_labels_loc	location of the test label file
+activity_label_loc	location of the activity and label map
+      
+test_data	data frame for test dataset
+train_data	data frame for test dataset
+total_data  test and train dataset together
+sub_test	test data frame for reading subjects
+sub_train	train data frame for reading subjects
+subject_all	row binding of both test and train subjects
+features	data frame for reading the features
+mean_sd_vec	vector which has only those column values which are mean or standard deviation
+feature_mean_sd	subsetting of the data frame features based on mean_sd_vec
+Extracted_data	sub set of total_data having only mean_sd_vec as columns
+test_labels	data frame for test data set which has test labels
+train_labels	data frame for train data set which has train labels
+labels	row binding of test_labels and train_labels
+act_label_map	data frame for labels and activity_labels map
+Labeled_data	column bind of Extracted_data and act_label_map
+tidy_data	data created after 4th step
+tidy_data_2	data created after 5th step
