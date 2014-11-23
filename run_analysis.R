@@ -39,4 +39,5 @@ run_analysis <- function(){
                 tidy_data_2[,ncol(tidy_data_2)] <- NULL
         }
         write.table(tidy_data_2, file = "tidy_data_2.txt", append = FALSE, row.names = FALSE)
+		tidy_data_2
 }
